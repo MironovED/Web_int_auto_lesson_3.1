@@ -1,0 +1,33 @@
+{
+  "name": "lesson_3.1",
+  "jest": {
+    "verbose": true
+  },
+  "version": "1.0.0",
+  "description": "jest test",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --collectCoverage"
+  },
+  "collectCoverageFrom": [
+    "**/*.{js,jsx}"
+  ],
+  "coverageThreshold": {
+    "branches": 100,
+    "functions": 100,
+    "lines": 100
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MironovED/Web_int_auto_lesson_3.1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
+}
